@@ -16,6 +16,19 @@ Implementing a content dashboard with filtering and analytics
 
 ## Key Features
 
+## 🚀 Responsive Design
+
+This application is built with a **responsive design** to ensure a seamless experience across all devices—from mobile phones to desktop screens. 📱💻
+
+- **Mobile-First**: The app is optimized for **mobile devices** with a design that adapts elegantly to **tablet** and **desktop** screens.
+- **Responsive Layout**: We leverage modern layout techniques for a layout that adjusts perfectly to all screen sizes.
+
+### 🍔 Hamburger Menu on Mobile
+
+- On smaller screens, the app features a **hamburger menu** 🥪 for easy navigation. This menu hides behind a sleek icon and expands when clicked, providing a smooth and intuitive mobile experience.
+- The **hamburger menu** ensures that the user interface remains clean and uncluttered, even on mobile devices, while still giving users quick access to all sections of the app.
+
+
 ## Authentication System:
 
 OTP-based login using Firebase Authentication or a similar service
