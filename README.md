@@ -47,6 +47,7 @@ Add video performance analytics
 
 1. Clone the repository:
    git clone https://github.com/sonykikuma/palcode-creator.git
+
    cd video-idea-generator
 
 2. Install dependencies:
