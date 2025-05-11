@@ -75,3 +75,12 @@ Add video performance analytics
    npm run dev
 
 5. Open your browser and go to http://localhost:5173.
+
+
+## 🌐 Deployment
+
+The application is **deployed** and live on **Vercel**. You can check it out at the following URL:
+
+[**Video Idea Generator - Live Demo**](https://palcode-creator.vercel.app)
+
+Feel free to explore the app and see how it works in real-time!
