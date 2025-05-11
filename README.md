@@ -1,12 +1,63 @@
-# React + Vite
+# Video Idea Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app that generates creative video content ideas using OpenAI's GPT-4.
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This platform leverages AI (OpenAI or similar APIs) to generate creative video content ideas based on a user's topic input. The generated videos can be previewed, and once finalized, they can be uploaded to social media platforms like YouTube and Instagram.
 
-## Expanding the ESLint configuration
+Key objectives include:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Demonstrating React.js best practices
+Implementing OTP-based login
+Integrating AI APIs for video content generation
+Enabling video publishing to social media
+Implementing a content dashboard with filtering and analytics
+
+## Key Features
+
+## Authentication System:
+
+OTP-based login using Firebase Authentication or a similar service
+Protected routes for authenticated users
+Session management and auto-logout functionality
+
+## Video Content Generation:
+
+Integration with AI APIs (e.g., OpenAI) to generate video ideas
+Customizable generation parameters for tone, topic, and video type
+Preview of generated video ideas before publishing
+Loading states and API error handling
+
+## Content Dashboard:
+
+Display previously generated videos and their metadata
+Filter videos by publishing status (draft, published, failed)
+Add video performance analytics
+
+## Installation
+
+### Prerequisites:
+
+- Node.js >=14.x
+- npm >=6.x
+- An OpenAI API key (if you want to use GPT-4).
+
+### Steps:
+
+1. Clone the repository:
+   git clone https://github.com/sonykikuma/palcode-creator.git
+   cd video-idea-generator
+
+2. Install dependencies:
+   npm install
+
+3. Set up environment variables:
+   Create a .env file in the root of the project.
+   Add your OpenAI API key:
+   VITE_OPENAI_API_KEY=your-openai-api-key
+
+4. Run the application:
+   npm run dev
+
+5. Open your browser and go to http://localhost:5173.
